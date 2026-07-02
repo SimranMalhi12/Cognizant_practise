@@ -6,7 +6,7 @@ public class BookService {
 
     private BookRepository bookRepository;
 
-    // Setter Injection (excercise 2)
+    
     public void setBookRepository(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
