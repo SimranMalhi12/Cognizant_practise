@@ -18,7 +18,7 @@ public class AAAPatternTest {
         namesList = new ArrayList<>();
         namesList.add("Alice");
         namesList.add("Bob");
-        namesList.add("Charlie");
+        namesList.add("Ayush");
     }
 
     @After
@@ -60,8 +60,8 @@ public class AAAPatternTest {
 
     @Test
     public void testContainsElement() {
-        String searchName = "Charlie";
+        String searchName = "Ayush";
         boolean found = namesList.contains(searchName);
-        assertTrue("List should contain Charlie", found);
+        assertTrue("List should contain Ayush", found);
     }
 }
