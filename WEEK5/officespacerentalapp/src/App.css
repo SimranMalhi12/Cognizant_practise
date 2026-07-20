@@ -1,0 +1,21 @@
+.App {
+    margin: 30px;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+h3 {
+    margin: 5px 0;
+}
